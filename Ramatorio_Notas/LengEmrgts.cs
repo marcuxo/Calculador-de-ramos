@@ -17,11 +17,5 @@ namespace Ramatorio_Notas
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            double n1 = Convert.ToDouble(textBox1.Text);
-            string t1 = Convert.ToString(n1);
-            label1.Text = t1;
-        }
     }
 }

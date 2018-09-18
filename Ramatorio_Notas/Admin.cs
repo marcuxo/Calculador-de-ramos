@@ -35,7 +35,7 @@ namespace Ramatorio_Notas
             double nc2 = n2 * 0.5;
             double n3 = Convert.ToDouble(n3_30.Text);
             double nc3 = n3 * 0.3;
-            double nt = (nc1 + nc2 + nc3) / 3;
+            double nt = (nc1 + nc2 + nc3);
             //porcentage de las notas de catedra
             double pct = nt * 0.7;
 
@@ -49,7 +49,7 @@ namespace Ramatorio_Notas
             double nlb4 = nl4 * 0.2;
             double nl5 = Convert.ToDouble(n8_20.Text);
             double nlb5 = nl5 * 0.2;
-            double nlt = (nlb1 + nlb2 + nlb3 + nlb4 + nlb5) / 5;
+            double nlt = (nlb1 + nlb2 + nlb3 + nlb4 + nlb5);
             //porcentage de las notas de laboratorio
             double plt = nlt * 0.3;
 
@@ -64,12 +64,24 @@ namespace Ramatorio_Notas
             string res = Convert.ToString(tt3);
 
             //nota para alcanzar la nota 4 y no perder ramo
-            decimal ide = tt2 - 4;
+            decimal ide = 4 - tt2;
             decimal ide2 = decimal.Round(ide, 2);
 
             //imprimimos en el label
-            rspta.Text =  "tu nota de presentacion es " + res + " y nesecitas " + ide2 + " para pasar el ramo";
+            rspta.Text = "tu nota de presentacion es " + tt1 + " y nesecitas " + ide2 + " para pasar el ramo";
 
+        }
+
+        private void btnBorrar_Click(object sender, EventArgs e)
+        {
+            n1_20.Text = "";
+            n2_50.Text = "";
+            n3_30.Text = "";
+            n4_20.Text = "";
+            n5_20.Text = "";
+            n6_20.Text = "";
+            n7_20.Text = "";
+            n8_20.Text = "";
         }
     }
 }
