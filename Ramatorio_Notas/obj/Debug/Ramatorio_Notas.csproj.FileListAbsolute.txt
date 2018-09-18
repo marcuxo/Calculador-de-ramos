@@ -1,0 +1,13 @@
+C:\Users\developer\Desktop\Ramatorio_Notas\Ramatorio_Notas\bin\Debug\Ramatorio_Notas.exe.config
+C:\Users\developer\Desktop\Ramatorio_Notas\Ramatorio_Notas\bin\Debug\Ramatorio_Notas.exe
+C:\Users\developer\Desktop\Ramatorio_Notas\Ramatorio_Notas\bin\Debug\Ramatorio_Notas.pdb
+C:\Users\developer\Desktop\Ramatorio_Notas\Ramatorio_Notas\obj\Debug\Ramatorio_Notas.csprojResolveAssemblyReference.cache
+C:\Users\developer\Desktop\Ramatorio_Notas\Ramatorio_Notas\obj\Debug\Ramatorio_Notas.Form1.resources
+C:\Users\developer\Desktop\Ramatorio_Notas\Ramatorio_Notas\obj\Debug\Ramatorio_Notas.Properties.Resources.resources
+C:\Users\developer\Desktop\Ramatorio_Notas\Ramatorio_Notas\obj\Debug\Ramatorio_Notas.csproj.GenerateResource.Cache
+C:\Users\developer\Desktop\Ramatorio_Notas\Ramatorio_Notas\obj\Debug\Ramatorio_Notas.exe
+C:\Users\developer\Desktop\Ramatorio_Notas\Ramatorio_Notas\obj\Debug\Ramatorio_Notas.pdb
+C:\Users\developer\Desktop\Ramatorio_Notas\Ramatorio_Notas\obj\Debug\Ramatorio_Notas.Admin.resources
+C:\Users\developer\Desktop\Ramatorio_Notas\Ramatorio_Notas\obj\Debug\Ramatorio_Notas.LengEmrgts.resources
+C:\Users\developer\Desktop\Ramatorio_Notas\Ramatorio_Notas\obj\Debug\Ramatorio_Notas.PuntoNet.resources
+C:\Users\developer\Desktop\Ramatorio_Notas\Ramatorio_Notas\obj\Debug\Ramatorio_Notas.WebElectrn.resources
