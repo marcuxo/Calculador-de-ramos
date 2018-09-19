@@ -39,6 +39,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.rspta = new System.Windows.Forms.Label();
             this.btnCalcular = new System.Windows.Forms.Button();
+            this.btnBorrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // n1_25
@@ -133,11 +134,22 @@
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
+            // btnBorrar
+            // 
+            this.btnBorrar.Location = new System.Drawing.Point(251, 166);
+            this.btnBorrar.Name = "btnBorrar";
+            this.btnBorrar.Size = new System.Drawing.Size(75, 23);
+            this.btnBorrar.TabIndex = 11;
+            this.btnBorrar.Text = "Borrar";
+            this.btnBorrar.UseVisualStyleBackColor = true;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
+            // 
             // WebElectrn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(431, 201);
+            this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.rspta);
             this.Controls.Add(this.label5);
@@ -169,5 +181,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label rspta;
         private System.Windows.Forms.Button btnCalcular;
+        private System.Windows.Forms.Button btnBorrar;
     }
 }

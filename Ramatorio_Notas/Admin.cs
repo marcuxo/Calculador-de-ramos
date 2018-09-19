@@ -68,7 +68,7 @@ namespace Ramatorio_Notas
             decimal ide2 = decimal.Round(ide, 2);
 
             //imprimimos en el label
-            rspta.Text = "tu nota de presentacion es " + tt1 + " y nesecitas " + ide2 + " para pasar el ramo";
+            rspta.Text = "tu nota de presentacion es " + res + " y nesecitas " + ide2 + " para pasar el ramo";
 
         }
 

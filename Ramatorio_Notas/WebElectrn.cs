@@ -38,5 +38,13 @@ namespace Ramatorio_Notas
 
             rspta.Text = "tu nota de presentacion es " + nde1 + " nesecitas un " + ideal + " para aprobar el ramo.";
         }
+
+        private void btnBorrar_Click(object sender, EventArgs e)
+        {
+            n1_25.Text = "";
+            n2_25.Text = "";
+            n3_25.Text = "";
+            n4_25.Text = "";
+        }
     }
 }
